@@ -1,0 +1,35 @@
+@import "variabels";
+body,html{
+@extend %background-colors;
+@extend %m-p;
+}
+section{
+    position: relative;
+    height: 100%;
+    width: 100vw ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    h1{
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform:translate(-50%,-50%);
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-size: 10vw;
+    }
+    ul{ 
+        margin: 0;
+        display: flex;
+        list-style: none;
+    }
+    div{
+        position: absolute;
+        top: 1vw;
+        left:1vw
+    }
+}
